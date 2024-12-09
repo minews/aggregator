@@ -65,7 +65,7 @@ class TaskConfig:
     liveness: bool = True
 
     # 是否强制开启 tls 及阻止跳过证书验证
-    disable_insecure: bool = False
+    disable_insecure: bool = True
 
     # 覆盖subconverter默认exclude规则
     ignorede: bool = False
