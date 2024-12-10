@@ -385,7 +385,7 @@ def assign(
         liveness = site.get("liveness", True)
 
         # 拒绝跳过证书验证
-        disable_insecure = site.get("secure", True)
+        disable_insecure = site.get("secure", False)
 
         # 优惠码
         coupon = utils.trim(site.get("coupon", ""))
